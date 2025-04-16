@@ -14,4 +14,4 @@ Are you interested in our work and want to discuss about it or join us? Don't he
 
 - Machine Learning and optimisation (deep reinforcement learning, model reduction, and topology optimisation)
 
-- Viscoelastic flows (elastic and elasto-inertial turbulence) 
+- "Squishy" systems, such as viscoelastic flows (elastic and elasto-inertial turbulence) 
