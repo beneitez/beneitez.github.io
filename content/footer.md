@@ -12,4 +12,4 @@ params:
 Some rights reserved.
 
 <br>
-<strong class="section-title">University of Manchestedr</strong>
+<strong class="section-title">University of Manchester</strong>
