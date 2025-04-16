@@ -1,0 +1,105 @@
+grouped:
+  - year: 2025
+    papers: 
+      - title: "Improving turbulence control through explainable deep learning"
+        authors: "Beneitez, M., Cremades, A., Guastoni, L., Vinuesa, R."
+        venue: "Under review"
+        arxiv: "2504.02354"  # Replace with actual arXiv ID
+        status: "under-review"
+  - year: 2024
+    papers:
+     
+      - title: "The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning"
+        authors: "Ohana, R., McCabe, M., [and 22 others including Beneitez, M.]"
+        venue: "NeurIPS 2024"
+        links:
+          - name: "OpenReview"
+            url: "https://openreview.net/forum?id=00Sx577BT3#discussion"  # Add OpenReview link
+          - name: "GitHub"
+            url: "https://github.com/PolymathicAI/the_well"  # Add GitHub repo link
+        status: "conference"
+
+      - title: "Transition route to elastic and elasto-inertial turbulence in polymer channel flows"
+        authors: "Beneitez, M., Page, J., Dubief, Y., Kerswell, R.R."
+        venue: "Phys. Rev. Fluids 9, 123302"
+        pdf: "https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.9.123302"
+        links:
+          - name: "Journal Club Video"
+            url: "https://www.youtube.com/watch?v=T6fU8ZVD60E"  # Add Journal Club link
+        status: "journal"
+
+      - title: "Inertial enhancement of the polymer diffusive instability"
+        authors: "Couchman, M.M.P., Beneitez, M., Page, J., Kerswell, R.R."
+        venue: "J. Fluid Mech. 981, A2"
+        pdf: "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/inertial-enhancement-of-the-polymer-diffusive-instability/153B8039DA726C9157A6F0F23E6BDB37"
+        status: "journal"
+
+      - title: "Multistability of elasto-inertial two-dimensional channel flow"
+        authors: "Beneitez, M., Page, J., Dubief, Y., Kerswell, R.R."
+        venue: "J. Fluid Mech. 981, A30"
+        pdf: "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/multistability-of-elastoinertial-twodimensional-channel-flow/D63B7EDB638451A6FC2FBBFDA85E1BBD"
+        status: "journal"
+
+  - year: 2023
+    papers:
+      - title: "Universal free-fall law for liquid jets under fully-developed injection conditions"
+        authors: "Beneitez, M., Moreno-Boza, D., Sevilla, A."
+        venue: "Phys. Rev. Lett. 131, 224001"
+        pdf: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.224001"
+        status: "journal"
+
+      - title: "Polymer diffusive instability leading to elastic turbulence in plane Couette flow"
+        authors: "Beneitez, M., Page, J., Kerswell, R.R."
+        venue: "Phys. Rev. Fluids 8, L101901"
+        pdf: "https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.L101901"
+        status: "journal"
+
+      - title: "Instability of the optimal edge trajectory in the Blasius boundary layer"
+        authors: "Beneitez, M., Duguet, Y., Schlatter, P., Henningson, D.S."
+        venue: "J. Fluid Mech. 971, A42"
+        pdf: "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/instability-of-the-optimal-edge-trajectory-in-the-blasius-boundary-layer/2F34A50CC3B91A532EF569D8CED7457F"
+        status: "journal"
+
+  - year: 2022
+    papers:
+      - title: "Finite-amplitude elastic waves in viscoelastic channel flow from large to zero Reynolds number"
+        authors: "Buza, G., Beneitez, M., Page, J., Kerswell, R.R."
+        venue: "J. Fluid Mech. 951, A3"
+        pdf: "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/finiteamplitude-elastic-waves-in-viscoelastic-channel-flow-from-large-to-zero-reynolds-number/CEEE764DD39AEFE1FBDF07970C3E2E77"
+        status: "journal"
+
+  - year: 2021
+    papers:
+      - title: "Transient linear stability of pulsating Poiseuille flow using optimally time-dependent modes"
+        authors: "Kern, J.S., Beneitez, M., Hanifi, A., Henningson, D.S."
+        venue: "J. Fluid Mech. 927, A6"
+        pdf: "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/transient-linear-stability-of-pulsating-poiseuille-flow-using-optimally-timedependent-modes/CEB9E8DAD7E14587BD3388C48230E2EF"
+        status: "journal"
+
+  - year: 2020
+    papers:
+      - title: "Modeling the collapse of the edge when two transition routes compete"
+        authors: "Beneitez, M., Duguet, Y., Henningson, D.S."
+        venue: "Phys. Rev. E 102, 053108"
+        pdf: "https://journals.aps.org/pre/pdf/10.1103/PhysRevE.102.053108"
+        status: "journal"
+
+      - title: "Edge manifold as a Lagrangian coherent structure in a high-dimensional state space"
+        authors: "Beneitez, M., Duguet, Y., Schlatter, P., Henningson, D.S."
+        venue: "Phys. Rev. Research 2, 033258"
+        pdf: "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.2.033258"
+        status: "journal"
+
+      - title: "Optimal perturbations and transition energy thresholds in boundary layer shear flows"
+        authors: "Vavaliaris, C., Beneitez, M., Henningson, D.S."
+        venue: "Phys. Rev. Fluids 5, 062401(R)"
+        pdf: "https://journals.aps.org/prfluids/pdf/10.1103/PhysRevFluids.5.062401"
+        status: "journal"
+
+  - year: 2019
+    papers:
+      - title: "Edge tracking in spatially developing boundary layer flows"
+        authors: "Beneitez, M., Duguet, Y., Schlatter, P., Henningson, D.S."
+        venue: "J. Fluid Mech. 881, 164-181"
+        pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0E334783C22461322D491A25FA3DC7B2/S0022112019007638a.pdf/edge_tracking_in_spatially_developing_boundary_layer_flows.pdf"
+        status: "journal"

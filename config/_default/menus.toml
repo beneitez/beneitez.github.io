@@ -1,0 +1,33 @@
+[[main]]
+  name       = 'People'
+  identifier = 'people'
+  pageRef    = '/people/'
+  weight     = 1
+
+[[main]]
+  name       = 'Publications'
+  identifier = 'publications'
+  pageRef    = '/publications/'
+  weight     = 2
+
+
+[[footer]]
+  identifier = 'googlescholar'
+  url        = 'https://scholar.google.co.uk/citations?hl=en&user=JQLC_HQAAAAJ&view_op=list_works&sortby=pubdate'
+  weight     = 1
+  name       = 'Google Scholar'
+  pre        = 'googlescholar'
+
+[[footer]]
+  identifier = 'email'
+  url        = 'mailto:miguel.beneitez@manchester.ac.uk'
+  weight     = 2
+  name       = 'email'
+  pre        = 'email'
+
+[[footer]]
+  identifier = 'linkedin'
+  url        = 'https://www.linkedin.com/in/miguel-beneitez-5b3b2b8b/'
+  weight     = 3
+  name       = 'linkedin'
+  pre        = 'linkedin'

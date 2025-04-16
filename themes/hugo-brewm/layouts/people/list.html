@@ -1,0 +1,141 @@
+{{ define "main" }}
+<section class="people">
+  <div class="container">
+    <h1 class="title">Current Members</h1>
+    <div class="people-grid">
+      {{ range .Pages.ByParam "order" }}
+        {{ if not .Params.past_member }}
+        <div class="person">
+          {{ with .Params.image }}
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="person-img">
+          {{ end }}
+          <div class="person-info">
+            <h2 class="person-name">{{ .Title }}</h2>
+            {{ with .Params.position }}
+            <p class="person-position">{{ . }}</p>
+            {{ end }}
+            {{ with .Content }}
+            <p class="person-description">{{ . }}</p>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{ $pastMembers := where .Pages "Params.past_member" true }}
+    {{ if $pastMembers }}
+    <h2 class="position-title">Past Members</h2>
+    <ul class="past-members-list">
+      {{ range $pastMembers }}
+      <li class="past-member-item">
+        <span class="past-member-name">{{ .Title }}</span>
+        {{ with .Params.next_position }}
+        - <span class="past-member-next-position">{{ . }}</span>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</section>
+
+<style>
+  .people {
+    text-align: center; 
+    padding: 3rem 1rem;
+  }
+  .position-title {
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: left;
+    color: var(--text-light);
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 20%;
+    max-width: 90%;
+  }
+  body.dark-mode .position-title {
+    color: var(--text-dark);
+  }
+  .people-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding-top: 1rem;
+  max-width: 1000px; /* optional: narrower width for better layout */
+  margin: 0 auto;
+  }
+  .person {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px var(--shadow-light);
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+  body.dark-mode .person {
+    background: var(--bg-dark);
+    box-shadow: 0 2px 5px var(--shadow-dark);
+  }
+  .person-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin-right: 1.5rem;
+  }
+  .person-info {
+    text-align: left;
+  }
+  .person-name {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+    color: var(--text-light);
+    font-style: normal;
+    font-weight: normal;
+  }
+  body.dark-mode .person-name {
+    color: var(--text-dark);
+  }
+  .person-position {
+    color: var(--text-light);
+    font-style: normal;
+  }
+  body.dark-mode .person-position {
+    color: var(--text-dark);
+  }
+  .person-bio {
+    margin-top: 0.5rem;
+    color: var(--text-light);
+  }
+  body.dark-mode .person-bio {
+    color: var(--text-dark);
+  }
+  .person-email a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .past-members-list {
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 20%;
+    padding-left: 2rem;
+    list-style-type: disc;
+  }
+  .past-member-item {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    padding: 0.3rem 0;
+  }
+  body.dark-mode .past-member-item {
+    color: var(--text-dark);
+  }
+  .past-member-name {
+    font-weight: bold;
+  }
+  .past-member-next-position {
+    font-style: italic;
+  }
+</style>
+{{ end }}

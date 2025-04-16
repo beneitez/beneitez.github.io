@@ -1,0 +1,100 @@
+{{ define "main" }}
+<section class="publications">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    
+    {{ .Content }}
+    
+    <div class="publication-list">
+      {{ range .Site.Data.publications.grouped }}
+      <div class="publication-year">
+        <h2>{{ .year }}</h2>
+        
+        <div class="publication-items">
+          {{ range .papers }}
+          <div class="publication" data-type="{{ .status }}">
+            <div class="publication-content">
+              <div class="publication-title">{{ .title }}</div>
+              <div class="publication-authors">{{ .authors | safeHTML }}</div>
+              <div class="publication-meta">
+                <span class="publication-venue">{{ .venue }}</span>
+                {{ if .doi }}<span class="publication-doi">[<a href="https://doi.org/{{ .doi }}">doi</a>]</span>{{ end }}
+                {{ if .arxiv }}<span class="publication-arxiv">[<a href="https://arxiv.org/abs/{{ .arxiv }}">arXiv</a>]</span>{{ end }}
+                {{ if .pdf }}<span class="publication-pdf">[<a href="{{ .pdf }}">pdf</a>]</span>{{ end }}
+                {{ range .links }}
+                <span class="publication-link">[<a href="{{ .url }}">{{ .name | lower }}</a>]</span>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<style>
+  .publications {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 1.4;
+  }
+  
+  .publication-year {
+    margin-bottom: 1.5rem;
+  }
+  
+  .publication-year h2 {
+    font-size: 2rem;
+    margin: 1rem 0 0.5rem 0;
+    color: var(--text-light);
+  }
+  
+  .publication {
+    margin-bottom: 0.8rem;
+  }
+  
+  .publication-title {
+    font-weight: 500;
+    color: var(--text-light);
+    margin-bottom: 0.1rem;
+  }
+  
+  .publication-authors {
+    font-style: normal;
+    color: var(--text-light);
+    font-size: 1.2rem;
+    margin-bottom: 0.1rem;
+  }
+  
+  .publication-meta {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    margin-bottom: 2.0rem;
+  }
+  
+  .publication-venue {
+    font-style: italic;
+  }
+  
+  .publication-meta a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  
+  .publication-meta a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dark mode adjustments */
+  body.dark-mode .publication-year h2,
+  body.dark-mode .publication-title,
+  body.dark-mode .publication-authors,
+  body.dark-mode .publication-meta {
+    color: var(--text-dark);
+  }
+</style>
+{{ end }}
