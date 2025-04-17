@@ -287,6 +287,22 @@
   .past-member-next-position {
     font-style: italic;
   }
+
+  @media (max-width: 700px) {
+  .person {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .person-img {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .person-info {
+    text-align: center;
+  }
+}
 </style>
 
         <!-- main/footer.html -->
@@ -300,11 +316,7 @@
 <strong class="section-title">University of Manchester</strong>
 
                     </div>
-                <div id="main-footer-secondary" class="column" style="--col: 15rem">
-                        <div id="coffee-counter">
-                            <strong class="section-title">Coffee Stat</strong>
-                            <p>Making this website has taken at least 11 cups of coffee, if not more.</p>
-                        </div>                    
+                <div id="main-footer-secondary" class="column" style="--col: 15rem">                    
                     <!-- menu.html -->
     <nav id="menu-footer" class="has-aria-label-top" aria-label="Let&#39;s keep in touch!">
         <ul role="presentation">

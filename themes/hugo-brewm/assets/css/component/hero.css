@@ -51,7 +51,7 @@
 
 .hero__content {
     --col: 27rem;
-    padding: 10rem 0;
+    padding: 5rem 0;
     max-width: var(--col);
     font-size: var(--small);
 }
