@@ -1,0 +1,77 @@
+{{ define "main" }}
+<section class="research">
+  <div class="container">
+    <h1 class="title">Research</h1>
+    <div class="research-list">
+      {{ range $index, $page := .Pages.ByParam "order" }}
+        <div class="research-item {{ if modBool $index 2 }}reverse{{ end }}">
+          {{ with $page.Params.image }}
+          <div class="research-image">
+            <img src="/images/{{ . }}" alt="{{ $page.Title }}">
+          </div>
+          {{ end }}
+          <div class="research-content">
+            <h2 class="research-title">{{ $page.Title }}</h2>
+            {{ $page.Content }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<style>
+  .research {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .research-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .research-item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .research-item.reverse {
+    flex-direction: row-reverse;
+  }
+  .research-image img {
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px var(--shadow-light);
+  }
+  .research-content {
+    max-width: 600px;
+    text-align: left;
+  }
+  .research-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+  .research-item,
+  .research-item.reverse {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .research-content {
+    max-width: 100%;
+  }
+
+  .research-image img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+</style>
+{{ end }}

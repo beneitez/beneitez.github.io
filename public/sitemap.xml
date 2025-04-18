@@ -218,7 +218,7 @@
     </url>
   <url>
     <loc>http://localhost:1313/people/miguel-beneitez/</loc>
-    <lastmod>2025-04-16T20:05:28+01:00</lastmod>
+    <lastmod>2025-04-17T15:42:37+02:00</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>
@@ -227,8 +227,13 @@
     <changefreq>monthly</changefreq>
     </url>
   <url>
+    <loc>http://localhost:1313/research/nonlinear_dyn_transition/</loc>
+    
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
     <loc>http://localhost:1313/people/</loc>
-    <lastmod>2025-04-16T20:05:28+01:00</lastmod>
+    <lastmod>2025-04-17T15:42:37+02:00</lastmod>
     <changefreq>monthly</changefreq>
     </url>
   <url>
@@ -239,6 +244,16 @@
   <url>
     <loc>http://localhost:1313/publications/</loc>
     <lastmod>2025-04-16T20:05:28+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/research/</loc>
+    
+    <changefreq>monthly</changefreq>
+    </url>
+  <url>
+    <loc>http://localhost:1313/research/viscoelastic_flows-copy/</loc>
+    
     <changefreq>monthly</changefreq>
     </url>
 </urlset>
