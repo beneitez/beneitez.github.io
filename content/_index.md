@@ -2,7 +2,7 @@
 cover: '/images/snap_01.svg'
 ---
 
-## Research
+## About us
 
 Our research explores nonlinear dynamics and data science applied to fluid problems. We combine concepts from dynamical systems with machine learning to better understand and control turbulence. Our work spans both conventional (Newtonian) and complex fluids, which present fascinating and unexpected phenomena, like chaos in the absence of inertia. We investigate these complex dynamics through large-scale numerical simulations alongside low-order modeling and analytical approaches. Additional research interests include the stability of complex fluid jets and selected aspects of biological flows.
 
