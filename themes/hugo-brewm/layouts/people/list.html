@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="people">
   <div class="container">
-    <h1 class="title">Current Members</h1>
+    <h1 class="section-title">Current Members</h1>
     <div class="people-grid">
       {{ range .Pages.ByParam "order" }}
         {{ if not .Params.past_member }}
@@ -41,6 +41,10 @@
 </section>
 
 <style>
+  h1.section-title{margin:1rem !important;
+    padding:var(--smallskip) 0 1ex;
+    font:italic var(--Large) var(--rm), serif}
+
   .people {
     text-align: center; 
     padding: 3rem 1rem;

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="research">
   <div class="container">
-    <h1 class="title">Research</h1>
+    <h1 class="section-title">Research</h1>
     <div class="research-list">
       {{ range $index, $page := .Pages.ByParam "order" }}
         <div class="research-item {{ if modBool $index 2 }}reverse{{ end }}">
@@ -21,6 +21,10 @@
 </section>
 
 <style>
+  h1.section-title{margin:1rem !important;
+    padding:var(--smallskip) 0 1ex;
+    font:italic var(--Large) var(--rm), serif}
+    
   .research {
     padding: 3rem 1rem;
     text-align: center;

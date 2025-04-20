@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="publications">
   <div class="container">
-    <h1>{{ .Title }}</h1>
+    <h1 class="section-title">{{ .Title | upper }}</h1>
     
     {{ .Content }}
     
@@ -36,6 +36,10 @@
 </section>
 
 <style>
+  h1.section-title{margin:0rem !important;
+    padding:var(--smallskip) 0 1ex;
+    font:italic var(--Large) var(--rm), serif}
+
   .publications {
     max-width: 900px;
     margin: 0 auto;
@@ -81,7 +85,7 @@
   }
   
   .publication-meta a {
-    color: var(--accent);
+    color: var(--ac);
     text-decoration: none;
   }
   

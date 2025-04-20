@@ -98,7 +98,7 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
 
     ## Favicon configuration
     [params.favicon]
-        png = '/favicon.svg'
+        png = '/favicon.png'
         # svg = '/favicon.svg'
         # ico = '/favicon.ico'
         # apple = '/apple-touch-icon.png'
@@ -152,9 +152,9 @@ ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
     ## Logo configuration
     [params.logo]
         ## Light mode logo mark
-        logoMark = 'https://example.com/logoMark.svg'
+        #logoMark = 'https://example.com/logoMark.svg'
         ## Dark mode logo mark
-        logoMarkDark = 'https://example.com/logoMarkDark.svg'
+        #logoMarkDark = 'https://example.com/logoMarkDark.svg'
         ## Enable logo type
         logoType = true
 
