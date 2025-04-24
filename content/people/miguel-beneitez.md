@@ -9,4 +9,4 @@ I am current a Lecturer (Assistant Professor) in Mechanical and Aerospace Engine
 
 Contact: miguel . beneitez AT manchester . ac . uk
 
-This page might look a bit empty at the moment but I'll be recruiting soon for a PhD position. If you are interested in working with me (no matter career stage), please get in touch.
+Join us! I'm actively recruiting a PhD student to work on ML and viscoelastic flows. You can find all the details [here!](https://www.findaphd.com/phds/project/data-driven-approaches-to-viscoelastic-flow-control/?p184706)
