@@ -4,6 +4,7 @@ title: 'News and Meetings'
 ---
 
 This has hapened recently:
+- 14th May 2025. Our [preprint](https://arxiv.org/abs/2505.08454) on the role of polymer diffusion in viscoelastic Taylor-Couette flow is now available on arXiv.
 
 - 24th April 2025. We are recruiting! Join us as a PhD student [here](https://www.findaphd.com/phds/project/data-driven-approaches-to-viscoelastic-flow-control/?p184706). 
 
