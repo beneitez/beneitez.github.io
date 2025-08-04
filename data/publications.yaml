@@ -3,9 +3,9 @@ grouped:
     papers: 
       - title: "Linear instability in planar viscoelastic Taylor-Couette flow with and without explicit polymer diffusion"
         authors: "Beneitez, M., Mrini, S., Kerswell, R. R."
-        venue: "Under review"
-        arxiv: "2505.08454"  # Replace with actual arXiv ID
-        status: "under-review"
+        venue: "J. Non-Newton. Fluid Mech. 345, 105459, 2025."
+        pdf: "https://www.sciencedirect.com/science/article/pii/S0377025725000783"
+        status: "journal"
     
       - title: "Improving turbulence control through explainable deep learning"
         authors: "Beneitez, M., Cremades, A., Guastoni, L., Vinuesa, R."
