@@ -12,6 +12,6 @@ Are you interested in our work and want to discuss about it or join us? Don't he
 
 - The Navier-Stokes equations and their variations (nonlinear dynamics, transition, and turbulence)
 
-- Machine Learning and optimisation (deep reinforcement learning, model reduction, and topology optimisation)
+- Machine learning and optimisation (deep reinforcement learning, model reduction, and topology optimisation)
 
 - "Squishy" systems, such as viscoelastic flows (elastic and elasto-inertial turbulence) 
