@@ -4,7 +4,7 @@ title: 'News and Meetings'
 ---
 
 This has hapened recently:
-- 8th September 2025. [Mihnea Cazacu](/people/) joins as a PhD student with [Jack King](https://www.google.com/search?client=safari&rls=en&q=jack+king&ie=UTF-8&oe=UTF-8), [Claudio P. Fonte](https://research.manchester.ac.uk/en/persons/claudio.fonte) and [Miguel Beneitez](/people/).
+- 8th September 2025. [Mihnea Cazacu](/people/) joins as a PhD student with [Jack King](https://research.manchester.ac.uk/en/persons/jack.king), [Claudio P. Fonte](https://research.manchester.ac.uk/en/persons/claudio.fonte) and [Miguel Beneitez](/people/).
 
 - 1st July 2025. Our [paper](https://www.sciencedirect.com/science/article/pii/S0377025725000783) on the role of polymer diffusion in viscoelastic Taylor-Couette flow is now published on the J. Non-Newtonian Fluid Mech.
 
