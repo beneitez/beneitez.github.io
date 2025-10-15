@@ -1,7 +1,7 @@
 ---
 title: "Mihnea Cazacu"
 position: "PhD student"
-image: "images/cat.jpg"
+image: "images/mihnea.jpg"
 order: 1
 ---
 
