@@ -15,4 +15,6 @@ This has hapened recently:
 You can meet us @:
 - APS DFD 2025 (Houston, USA, 23rd-25th November 2025)
 
+- UK AI for Turbulence Workshop (London, UK, 26th-27th January 2026)
+
 - 3rd ERCOFTAC "Machine learning for fluid dynamics" workshop (Amsterdam, The Netherlands,4th-6th March 2026)
