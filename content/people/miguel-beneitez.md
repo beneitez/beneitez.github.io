@@ -1,7 +1,7 @@
 ---
 title: "Miguel Beneitez"
 position: "Faculty"
-image: "images/miguel.jpg"
+image: "images/miguel_2025.jpeg"
 order: 1
 ---
 
