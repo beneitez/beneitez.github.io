@@ -14,7 +14,6 @@ This has hapened recently:
 - 7th April 2025. Our [preprint](https://arxiv.org/abs/2504.02354) on explainable deep learning coupled with deep reinforcement learning is now available on arXiv.
 
 You can meet us @:
-- APS DFD 2025 (Houston, USA, 23rd-25th November 2025)
 
 - UK AI for Turbulence Workshop (London, UK, 26th-27th January 2026)
 
