@@ -8,4 +8,4 @@ weight: 1
 
 We are motivated by challenges in engineering, medicine, and sustainability. 
 
-We are recruiting for a PhD student at the interface between ML and viscoelastic flows. More information [here][https://www.findaphd.com/phds/project/data-driven-approaches-to-viscoelastic-flow-control/?p184706]. Join us!
+We are recruiting for a PhD student at the interface between ML and viscoelastic flows. More information [here](https://www.findaphd.com/phds/project/data-driven-approaches-to-viscoelastic-flow-control/?p184706). Join us!
