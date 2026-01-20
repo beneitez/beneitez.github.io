@@ -9,3 +9,5 @@ I am a Lecturer (Assistant Professor) in Mechanical and Aerospace Engineering at
 
 Contact: miguel . beneitez AT manchester . ac . uk
 
+We are recruiting for a PhD student at the interface between ML and viscoelastic flows. More information [here](https://www.findaphd.com/phds/project/data-driven-approaches-to-viscoelastic-flow-control/?p184706). Join us!
+
