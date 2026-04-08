@@ -196,23 +196,23 @@
                 <p>You can change the cover of each terms entry by adding the <code>cover</code> parameter in <code>_index.md</code> under <code>[lang]\[taxonomies]\[terms]\</code>.
 For example, to set the cover of the term <code>configuration</code> in categories, add the parameter in <code>content\en\categories\configuration\_index.md</code>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Configuration&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Configuration description, this might be useful for HTML metadata&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">cover</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://example.com/cover.png&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">translationKey</span><span class="p">:</span><span class="w"> </span><span class="l">configuration</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Configuration&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Configuration description, this might be useful for HTML metadata&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">cover</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://example.com/cover.png&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">translationKey</span><span class="p">:</span><span class="w"> </span><span class="l">configuration</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">If something is written here, the text will be displayed as hero section.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="l">If something is written here, the text will be displayed as hero section.</span><span class="w">
 </span></span></span></code></pre></div><p>To link the terms entry in another language, you can add the <code>translationKey</code> parameter.
 For example, if you want to link the terms entry in Indonesian, add the parameter in <code>content\id\categories\konfigurasi\_index.md</code>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Konfigurasi&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Deskripsi konfigurasi, ini bisa berguna untuk metadata HTML&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">cover</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://example.com/cover.png&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">translationKey</span><span class="p">:</span><span class="w"> </span><span class="l">configuration</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Konfigurasi&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Deskripsi konfigurasi, ini bisa berguna untuk metadata HTML&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">cover</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://example.com/cover.png&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">translationKey</span><span class="p">:</span><span class="w"> </span><span class="l">configuration</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">Jika ada teks yang ditulis di sini, teks akan ditampilkan sebagai bagian hero.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="l">Jika ada teks yang ditulis di sini, teks akan ditampilkan sebagai bagian hero.</span><span class="w">
 </span></span></span></code></pre></div><p>The same way, you can set the cover of each terms entry for <code>series</code> and <code>author</code> taxonomies.
 After making these changes, rebuild your site to see the updated cover and translations in breadcrumbs.
 The cover will replace the flowlines images on taxonomies listing.</p>
@@ -249,7 +249,7 @@ The cover will replace the flowlines images on taxonomies listing.</p>
             <div class="verbose">
                 <div class="has-aria-label-top" aria-label="Authoring Terms Entry"><span>http://localhost:1313/post/authoring-terms-entry/</span></div>
                 <div><span>This page is accessed on: </span><time id="time-stamp"></time></div>
-                <div><span>This page is built on: </span><time datetime="2025-04-20T12:28:28&#43;02:00">2025-04-20 12:28</time></div>
+                <div><span>This page is built on: </span><time datetime="2026-04-08T10:04:04&#43;02:00">2026-04-08 10:04</time></div>
                 
             </div>
         </div>

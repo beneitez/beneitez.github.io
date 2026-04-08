@@ -6,12 +6,14 @@
     {{ .Content }}
 
     <div class="publication-list">
-      {{ $counter := 0 }}
+      {{ $total := 0 }}
+      {{ range .Site.Data.publications.grouped }}{{ range .papers }}{{ $total = add $total 1 }}{{ end }}{{ end }}
+      {{ $counter := $total }}
       {{ range .Site.Data.publications.grouped }}
         {{ range .papers }}
-          {{ $counter = add $counter 1 }}
           <div class="publication" data-type="{{ .status }}">
             <div class="publication-number">{{ $counter }}.</div>
+            {{ $counter = sub $counter 1 }}
             <div class="publication-content">
               <div class="publication-title">{{ .title }}</div>
               <div class="publication-authors">{{ .authors | safeHTML }}</div>
