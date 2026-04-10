@@ -1,7 +1,7 @@
 ---
 title: "Sergio Angelini"
 position: "PhD student"
-image: "images/sergio.jpg"
+image: "images/sergio.png"
 order: 2
 ---
 
