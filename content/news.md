@@ -4,6 +4,8 @@ title: 'News and Meetings'
 ---
 
 This has hapened recently:
+- 7th April 2026. Our [preprint](https://arxiv.org/abs/2604.05892) on how transition to Elasto-inertial turbulence happens in cylinder arrays is now available on arXiv.
+
 - 19th January 2026. We are recruiting for a PhD student at the interface between ML and viscoelastic flows. More information [here](https://www.findaphd.com/phds/project/data-driven-approaches-to-viscoelastic-flow-control/?p184706). Join us!
 
 - 8th September 2025. [Mihnea Cazacu](/people/) joins as a PhD student with [Jack King](https://research.manchester.ac.uk/en/persons/jack.king), [Claudio P. Fonte](https://research.manchester.ac.uk/en/persons/claudio.fonte) and [Miguel Beneitez](/people/).
@@ -16,6 +18,6 @@ This has hapened recently:
 
 You can meet us @:
 
-- UK AI for Turbulence Workshop (London, UK, 26th-27th January 2026)
+- Non-Newtonian Flow in Porous Media (Cargese, Corsica, France, 11th-15th May 2026)
 
-- 3rd ERCOFTAC "Machine learning for fluid dynamics" workshop (Amsterdam, The Netherlands,4th-6th March 2026)
+- APS DFD 2026 (Orlanda, FL, USA, 22th-24th Nov 2026)
