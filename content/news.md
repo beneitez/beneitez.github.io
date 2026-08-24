@@ -4,6 +4,8 @@ title: 'News and Meetings'
 ---
 
 This has hapened recently:
+- 25th July 2026. We have been awarded a Royal Society International Exchange Grant to work together with Prof. Alec Linot at the University of Massachussetts Amherst.
+
 - 7th April 2026. Our [preprint](https://arxiv.org/abs/2604.05892) on how transition to Elasto-inertial turbulence happens in cylinder arrays is now available on arXiv.
 
 - 19th January 2026. We are recruiting for a PhD student at the interface between ML and viscoelastic flows. More information [here](https://www.findaphd.com/phds/project/data-driven-approaches-to-viscoelastic-flow-control/?p184706). Join us!
@@ -14,10 +16,8 @@ This has hapened recently:
 
 - 14th April 2025. [Miguel Beneitez](/people/) joined the University of Manchester as a Lecturer (Assist. Prof.) in Fluid Mechanics!
 
-- 7th April 2025. Our [preprint](https://arxiv.org/abs/2504.02354) on explainable deep learning coupled with deep reinforcement learning is now available on arXiv.
-
 You can meet us @:
 
-- Non-Newtonian Flow in Porous Media (Cargese, Corsica, France, 11th-15th May 2026)
+- UKFN SIG on Flow Instability, Modelling, and Control (Cambridge, UK. 22nd Sept 2026)
 
 - APS DFD 2026 (Orlanda, FL, USA, 22th-24th Nov 2026)
