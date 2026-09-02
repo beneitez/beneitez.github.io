@@ -1,5 +1,5 @@
 ---
-title: "Mihnea Cazacu"
+title: "Lucy Cunliffe"
 position: "PhD student"
 image: "images/lucy.jpeg"
 order: 1
